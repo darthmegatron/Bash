@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script will zip all files in the current directory as long as it does not contain any errors.
+# This script will zip all files in the current directory as long as the last 20 line of the file given file do not contain any errors.
 
 
 files="$(ls --ignore=*tar.gz | sort -h | head -n 20)"
