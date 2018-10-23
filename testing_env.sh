@@ -69,4 +69,5 @@ echo 'error
 27
 28
 29
-30' > file2.txt
+30
+31' > file2.txt
