@@ -2,7 +2,7 @@
 
 echo #Spacing
 
-echo WARNING! Use of this script will remove all traces of the target you enter from this system.
+echo WARNING! Use of this script will remove ALL traces of the target you enter from this system.
 
 echo #Spacing
 echo "Type a target for removal:"
@@ -24,7 +24,7 @@ else
 	echo #Spacing
 
 	case $response in
-		[yY]) for item in $unwanted; do
+		[yY]) for item in $unwanted;do
 			rm -rf $item
 			echo "$item" -  removed.
 		done;;
@@ -33,4 +33,3 @@ else
 			exit;;
 	esac
 fi
-
