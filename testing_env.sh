@@ -1,7 +1,7 @@
 #!/bin/bash
 #This script makes an environment for testing file manipulation on the user's desktop.
 
-ev=~/Desktop/Testing
+ev=~/Testing
 mkdir $ev && cd $ev
 
 for i in {1..29..1};do
